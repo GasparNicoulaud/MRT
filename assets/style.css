@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'picnic';
-	src: url('./PicNic-Regular.otf');
+	src: url('/assets/PicNic-Regular.otf');
 }
 @font-face {
 	font-family: 'baskervvol';
-	src: url('./BBBBaskervvol-Base.otf');
+	src: url('/assets/BBBBaskervvol-Base.otf');
 }
 
 /*
@@ -19,6 +19,8 @@
 * {
   margin: 0;
   font-family: 'baskervvol', serif;
+  text-stroke: 1px;
+  -webkit-text-stroke: 1px;
 }
 /*
   Typographic tweaks!
@@ -58,7 +60,7 @@ input, button, textarea, select {
 :root {
     --bg-color: #ececec;
     --main: #666666;
-    --margin-size: 80px;
+    --margin-size: 60px;
 }
 
 html {
