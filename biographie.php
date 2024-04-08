@@ -1,7 +1,7 @@
 <?php
 require_once 'Includes/Header.php';
 ?>
-<div class="container">
+<div class="main-container">
     biographie
 </div>
 <?php

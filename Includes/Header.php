@@ -11,7 +11,7 @@
     <header>
         <style>
             header{
-                font-size: 25px;
+                font-size: 28px;
 
                 > div {
                     display: flex;
@@ -27,7 +27,7 @@
 
                 > nav {
                     display: flex;
-                    justify-content: space-around;
+                    justify-content: space-between;
                     padding: calc(var(--margin-size)/2) var(--margin-size);
                     border-bottom: 2px solid var(--main);
 

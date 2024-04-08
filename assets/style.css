@@ -73,6 +73,16 @@ a {
     color: var(--main);
 }
 
+.main-container {
+    margin: var(--margin-size);
+    font-size: 20px;
+    min-width: 300px;
+}
+
+.preformatted {
+    white-space: pre-wrap;
+}
+
 /* 
 p, .corps {
 	font-size: 16px;
